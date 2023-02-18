@@ -17,7 +17,7 @@ addLayer("jac", {
     baseResource: "points",
     baseAmount() {return player.points},
     type: "normal",
-    exponent: 0.5,
+    exponent: 0.01,
     canBuyMax: () => true,
     gainMult() {
         let mult = EN(1)
